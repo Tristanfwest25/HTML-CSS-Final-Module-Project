@@ -1,0 +1,74 @@
+@import url(https://fonts.google.com/specimen/IBM+Plex+Mono?query=IBM+Plex+Mono);
+
+
+@import url(https://fonts.google.com/specimen/Raleway?query=raleway);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    font-family: 'IBM Plex Mono', monospace;
+}
+header {
+    width: 1280px;
+    height: 700px;
+    background-color: #080808;
+}
+.navbar-container {
+    width: 1110px;
+    height: 70px;
+    margin: 0 85px 0px 85px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #1B1B1B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar {
+    width: 717px;
+    height: 18px;
+    padding: 24px 9px 28px 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    list-style: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 1%;
+}
+.nav-menu li a {
+    
+    text-decoration: none;
+    color: #9C9C9C;
+
+}
+.navbar-container .socials {
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    
+
+}
+.name-heading {
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 100%;
+    letter-spacing: 0;
+    font-family: raleway, sans-serif;
+}
