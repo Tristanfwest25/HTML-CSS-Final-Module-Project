@@ -363,6 +363,7 @@ section {
 
 .testimonials-header h2 {
   color: #ffffff;
+  margin-top: 80px;
   font-weight: 800;
   font-size: 34px;
   line-height: 100%;
@@ -384,18 +385,47 @@ section {
   line-height: 24px;
   letter-spacing: 1%;
 }
-.statement {
+.statement1 {
   width: 445px;
   height: 212px;
+  margin-top: 60px;
+  margin-left: 180px;
 }
-.statement p {
+
+.statement2 {
+  width: 445px;
+  height: 212px;
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+.statement3 {
+  width: 445px;
+  height: 212px;
+  margin-top: 62px;
+  margin-left: 180px;
+}
+
+.statement4 {
+  width: 445px;
+  height: 212px;
+  margin-top: 62px;
+  margin-left: 30px;
+}
+.statement1 p,
+.statement2 p,
+.statement3 p,
+.statement4 p {
   color: #9c9c9c;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 1%;
 }
-.statement h4 {
+.statement1 h4,
+.statement2 h4,
+.statement3 h4,
+.statement4 h4 {
   margin-top: 20px;
   color: #ffffff;
   font-weight: 700;
