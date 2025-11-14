@@ -13,6 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 header {
   width: 1280px;
@@ -141,4 +142,264 @@ section {
 .workplace {
   width: 160px;
   height: 60px;
+}
+.case-studies-section {
+  width: 897px;
+  height: 1242px;
+  margin-left: 207px;
+  margin-top: 80px;
+  margin-right: 176px;
+  margin-bottom: 80px;
+  flex-direction: column;
+}
+
+.case-studies-header h2 {
+  color: #080808;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-family: raleway, sans-serif;
+  gap: 10px;
+}
+.studies-summary {
+  width: 570px;
+  height: 72px;
+  margin-top: 10px;
+  margin-right: 180px;
+  margin-left: 147px;
+  margin-bottom: 0px;
+}
+.studies-summary p span {
+  display: flex;
+  justify-content: center;
+}
+.studies-summary p {
+  text-align: center;
+  color: #9c9c9c;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1%;
+}
+
+.case1,
+.case3 {
+  width: 892px;
+  height: 300px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "IBM Plex Mono", monospace;
+}
+.case1 {
+  margin-top: 60px;
+}
+
+.case1 .fintech {
+  width: 72px;
+  height: 24px;
+  margin-top: 27px;
+  border-radius: 60px;
+  background-color: #fff6e9;
+  color: #ffa217;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 1%;
+  display: flex;
+  justify-content: center;
+}
+.case1-heading,
+.case2-heading,
+.case3-heading {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #080808;
+  margin-top: 20px;
+  font-family: "IBM Plex Mono", monospace;
+}
+.case1-description,
+.case2-description,
+.case3-description {
+  width: 421px;
+  height: 96px;
+  margin-top: 10px;
+  color: #9c9c9c;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1%;
+  font-family: "IBM Plex Mono", monospace;
+}
+.case1-button {
+  width: 189.89px;
+  height: 38px;
+  background-color: #ffa217;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  font-family: "IBM Plex Mono", monospace;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: #2ab0901a 0px 8px 30px 0px;
+  margin-bottom: 17px;
+  margin-top: 40px;
+}
+.case1-image {
+  object-fit: cover;
+  width: 445px;
+  height: 300px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.case2 {
+  width: 897px;
+  height: 300px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.case2 .edtech {
+  width: 72px;
+  height: 24px;
+  margin-top: 27px;
+  border-radius: 60px;
+  background-color: #d0e6ff;
+  color: #000aff;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 1%;
+  display: flex;
+  justify-content: center;
+}
+.case2-button {
+  width: 189.89px;
+  height: 38px;
+  background-color: #000aff;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  font-family: "IBM Plex Mono", monospace;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: #000aff1a 0px 8px 30px 0px;
+  margin-bottom: 17px;
+  margin-top: 40px;
+}
+.case2-image {
+  object-fit: cover;
+  width: 445px;
+  height: 300px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.case3 .pharma {
+  width: 72px;
+  height: 24px;
+  margin-top: 27px;
+  border-radius: 60px;
+  background-color: #e0fff8;
+  color: #2ab090;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 1%;
+  display: flex;
+  justify-content: center;
+}
+.case3-button {
+  width: 189.89px;
+  height: 38px;
+  background-color: #2ab090;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  font-family: "IBM Plex Mono", monospace;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: #2ab0901a 0px 8px 30px 0px;
+  margin-bottom: 17px;
+  margin-top: 40px;
+}
+.case3-image {
+  object-fit: cover;
+  width: 445px;
+  height: 300px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.testimonials-section {
+  width: 1280px;
+  height: 804px;
+  margin-bottom: 80px;
+  flex-direction: column;
+  background-color: #080808;
+}
+
+.testimonials-header h2 {
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-family: raleway, sans-serif;
+}
+.testimonials-summary {
+  width: 570px;
+  height: 48px;
+  gap: 10px;
+}
+
+.testimonials-summary p {
+  text-align: center;
+  color: #9c9c9c;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1%;
+}
+.statement {
+  width: 445px;
+  height: 212px;
+}
+.statement p {
+  color: #9c9c9c;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1%;
+}
+.statement h4 {
+  margin-top: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
