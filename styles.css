@@ -359,6 +359,7 @@ section {
   margin-bottom: 80px;
   flex-direction: column;
   background-color: #080808;
+
 }
 
 .testimonials-header h2 {
@@ -368,12 +369,13 @@ section {
   font-size: 34px;
   line-height: 100%;
   letter-spacing: 0%;
+  margin-bottom: 10px;
   font-family: raleway, sans-serif;
 }
 .testimonials-summary {
   width: 570px;
   height: 48px;
-  gap: 10px;
+  
 }
 
 .testimonials-summary p {
@@ -390,6 +392,15 @@ section {
   height: 212px;
   margin-top: 60px;
   margin-left: 180px;
+  margin-bottom: 110px;
+  border: 1px solid transparent;
+  background: linear-gradient( #080808, #080808) padding-box,
+    linear-gradient(90deg, #484848, #1B1B1B00) border-box;
+  border-radius: 6px;
+  
+  
+
+ 
 }
 
 .statement2 {
@@ -397,6 +408,11 @@ section {
   height: 212px;
   margin-top: 60px;
   margin-left: 30px;
+    border: 1px solid transparent;
+  background: linear-gradient( #080808, #080808) padding-box,
+    linear-gradient(90deg, #484848, #1B1B1B00) border-box;
+  border-radius: 6px;
+  
 }
 
 .statement3 {
@@ -404,6 +420,10 @@ section {
   height: 212px;
   margin-top: 62px;
   margin-left: 180px;
+    border: 1px solid transparent;
+  background: linear-gradient( #080808, #080808) padding-box,
+    linear-gradient(90deg, #484848, #1B1B1B00) border-box;
+  border-radius: 6px;
 }
 
 .statement4 {
@@ -411,11 +431,27 @@ section {
   height: 212px;
   margin-top: 62px;
   margin-left: 30px;
+    border: 1px solid transparent;
+  background: linear-gradient( #080808, #080808) padding-box,
+    linear-gradient(90deg, #484848, #1B1B1B00) border-box;
+  border-radius: 6px;
+}
+.statement1 .quotations,
+.statement2 .quotations,
+.statement3 .quotations,
+.statement4 .quotations {
+  margin-top: -32px;
+  margin-left: 10px;
 }
 .statement1 p,
 .statement2 p,
 .statement3 p,
 .statement4 p {
+  width: 409px;
+  height: 72px;
+  margin-top: 30px;
+  margin-left: 30px;
+  
   color: #9c9c9c;
   font-weight: 400;
   font-size: 14px;
@@ -426,10 +462,17 @@ section {
 .statement2 h4,
 .statement3 h4,
 .statement4 h4 {
-  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #ffffff;
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0%;
+  margin
+}
+.client1, .client2, .client3, .client4 {
+  margin-left: 30px;
+  margin-top: 30px;
 }
