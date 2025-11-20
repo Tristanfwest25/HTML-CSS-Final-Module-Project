@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -13,14 +13,12 @@ body {
   align-items: center;
   flex-direction: column;
   min-height: 100vh;
-  
 }
 header {
   width: 100%;
   max-width: 1280px;
   height: 700px;
   background-color: #080808;
-
 }
 .navbar-container {
   width: 100%;
@@ -72,8 +70,6 @@ header {
   align-items: center;
   width: 100%;
   max-width: 1280px;
-  
-  
 }
 .intro-section {
   display: flex;
@@ -157,7 +153,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 .workplace {
   object-fit: cover;
@@ -389,7 +384,6 @@ header {
 }
 
 .testimonials-header h2 {
-  
   flex-direction: column;
   color: #ffffff;
   margin-top: 80px;
@@ -401,7 +395,6 @@ header {
   font-family: raleway, sans-serif;
 }
 .testimonials-summary {
-  
   width: 570px;
   height: 48px;
 }
@@ -638,7 +631,6 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 }
 .contact-heading h2 {
   width: 206px;
@@ -674,21 +666,17 @@ header {
   font-family: "IBM Plex Mono", monospace;
   margin-left: 465px;
   margin-right: 465px;
-  
 }
 
 form label {
-  
   font-size: 12px;
   font-weight: 600;
   line-height: 100%;
   letter-spacing: 0%;
   padding-bottom: 5px;
-  
 }
 .input-container {
   margin-top: 5px;
-  
 }
 form input[type="text"],
 form input[type="email"] {
@@ -725,7 +713,7 @@ form input[type="tel"] {
   font-weight: 400;
   line-height: 21px;
   letter-spacing: 0%;
-  border: 1px #D8D8D8;
+  border: 1px #d8d8d8;
   border-radius: 4px;
   color: #757575;
   font-family: "IBM Plex Mono", monospace;
@@ -735,13 +723,13 @@ form input[type="tel"] {
 form input[type="submit"] {
   width: 350px;
   height: 50px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 14px;
   font-weight: 700;
   line-height: 100%;
   letter-spacing: 0%;
-  background-color: #3F8E00;
-  border: 1px #62BA1B solid;
+  background-color: #3f8e00;
+  border: 1px #62ba1b solid;
   border-radius: 4px;
   cursor: pointer;
   padding-left: 141.55px;
@@ -749,7 +737,6 @@ form input[type="submit"] {
   background-image: url(Images/vectors/Vector.svg);
   background-repeat: no-repeat;
   background-position: right 141.55px center;
-  
 }
 
 footer {
