@@ -1,7 +1,5 @@
-@import url(https://fonts.google.com/specimen/IBM+Plex+Mono?query=IBM+Plex+Mono);
-
-@import url(https://fonts.google.com/specimen/Raleway?query=raleway);
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -18,15 +16,17 @@ body {
   
 }
 header {
-  width: 1280px;
+  width: 100%;
+  max-width: 1280px;
   height: 700px;
   background-color: #080808;
 
 }
 .navbar-container {
-  width: 1110px;
+  width: 100%;
+  max-width: 1110px;
   height: 70px;
-  margin: 0 85px 0px 85px;
+  margin: 0 5.3125rem 0px 5.3125rem;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   background-color: #1b1b1b;
@@ -40,7 +40,7 @@ header {
 .navbar {
   width: 717px;
   height: 18px;
-  padding: 24px 9px 28px 9px;
+  padding: 24px 0px 28px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -70,11 +70,20 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  
+  
 }
 .intro-section {
-  width: 538px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 538px;
   height: 247px;
-  margin: 201px 32px 109px 180px;
+  margin: 12.5625rem auto 6.8125rem auto;
   gap: 30px;
 }
 
@@ -141,7 +150,8 @@ header {
   letter-spacing: 0%;
 }
 .work {
-  width: 920px;
+  width: 100%;
+  max-width: 920px;
   height: 60px;
   margin: 0px 180px 45px 180px;
   display: flex;
@@ -150,19 +160,18 @@ header {
 
 }
 .workplace {
-  width: 160px;
+  object-fit: cover;
+  max-width: 160px;
   height: 60px;
 }
 .case-studies-section {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 897px;
+  width: 90%;
+  max-width: 897px;
   height: 1242px;
-  margin-left: 207px;
-  margin-top: 80px;
-  margin-right: 176px;
-  margin-bottom: 80px;
+  margin: 80px auto;
   flex-direction: column;
 }
 
@@ -621,7 +630,8 @@ header {
   align-items: center;
 }
 .contact {
-  width: 1280px;
+  width: 100%;
+  max-width: 1280px;
   height: 672px;
   background-color: #080808;
   display: flex;
