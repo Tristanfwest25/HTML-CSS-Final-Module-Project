@@ -10,12 +10,20 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="styles.css" class="stylesheet" />
   </head>
   <body>
     <header>
       <nav class="navbar-container">
-        <div class="navbar">
+        <i class="fas fa-bars menu-toggle" onclick="toggleMenu()"></i>
+        <div id="menu" class="navbar">
           <ul class="nav-menu">
             <li class="nav-item">
               <a href="#" class="nav-link">Home</a>
@@ -372,5 +380,12 @@ Enter your message</textarea
         <p>Made with ❤️</p>
       </div>
     </footer>
+
+    <script>
+      function toggleMenu() {
+        const menu = document.getElementById("menu");
+        menu.classList.toggle("active");
+      }
+    </script>
   </body>
 </html>

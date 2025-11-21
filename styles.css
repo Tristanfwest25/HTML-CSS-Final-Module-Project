@@ -16,7 +16,7 @@ body {
 }
 header {
   width: 100%;
-  max-width: 1280px;
+  /*max-width: 1280px;*/
   height: 700px;
   background-color: #080808;
 }
@@ -38,10 +38,10 @@ button {
   cursor: pointer;
 }
 .navbar-container {
-  width: 100%;
-  max-width: 1110px;
+  width: 90%;
+  /*max-width: 1110px;*/
   height: 70px;
-  margin: 0 5.3125rem 0px 5.3125rem;
+  margin: 0 5% 0px 5%;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   background-color: #1b1b1b;
@@ -52,8 +52,15 @@ button {
   top: 0;
   z-index: 1;
 }
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  color: #ffffff;
+  cursor: pointer;
+}
 .navbar {
   width: 717px;
+  height: 18px;
   padding: 24px 0px 28px 0px;
   display: flex;
 }
@@ -76,7 +83,9 @@ button {
 }
 .home {
   display: flex;
+  justify-content: center;
   align-items: center;
+  width: 100%;
 }
 .intro-section {
   display: flex;
@@ -85,7 +94,7 @@ button {
   width: 100%;
   max-width: 538px;
   height: 247px;
-  margin: 12.5625rem auto 6.8125rem auto;
+  margin: 12.5625rem 0px 6.8125rem 0px;
   gap: 30px;
 }
 
@@ -120,7 +129,6 @@ button {
   width: 350px;
   height: 350px;
   margin-top: 150px;
-  margin-right: 147px;
 }
 .selfie img {
   clip-path: circle();
@@ -146,12 +154,20 @@ button {
 .workplace {
   height: 60px;
 }
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .case-studies-section {
   width: 90%;
-  max-width: 897px;
+  /*max-width: 897px;*/
   height: 1242px;
   margin: 80px auto;
   flex-direction: column;
+  display: flex;
+  align-items: center;
 }
 
 .case-studies-header h2 {
@@ -165,6 +181,7 @@ button {
 }
 .studies-summary {
   margin-top: 10px;
+  width: 570px;
   margin-right: 180px;
   margin-left: 147px;
 }
@@ -308,7 +325,8 @@ button {
   overflow: hidden;
 }
 .testimonials-section {
-  width: 1280px;
+  /*width: 1280px;*/
+  width: 100%;
   height: 804px;
   margin-bottom: 80px;
   display: flex;
@@ -328,6 +346,7 @@ button {
 }
 .testimonials-summary {
   width: 570px;
+  margin-bottom: 3.75rem;
 }
 
 .testimonials-summary p {
@@ -335,14 +354,18 @@ button {
 }
 .statements {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: auto;
+  gap: 62px 30px;
+
   flex-wrap: wrap;
 }
 .statement1 {
   width: 445px;
   height: 212px;
-  margin-top: 60px;
-  margin-left: 180px;
-  margin-bottom: 62px;
+
   border: 1px solid transparent;
   background: linear-gradient(#080808, #080808) padding-box,
     linear-gradient(90deg, #484848, #1b1b1b00) border-box;
@@ -352,8 +375,7 @@ button {
 .statement2 {
   width: 445px;
   height: 212px;
-  margin-top: 60px;
-  margin-left: 30px;
+
   border: 1px solid transparent;
   background: linear-gradient(#080808, #080808) padding-box,
     linear-gradient(90deg, #484848, #1b1b1b00) border-box;
@@ -363,8 +385,7 @@ button {
 .statement3 {
   width: 445px;
   height: 212px;
-  margin-left: 180px;
-  margin-bottom: 80px;
+
   border: 1px solid transparent;
   background: linear-gradient(#080808, #080808) padding-box,
     linear-gradient(90deg, #484848, #1b1b1b00) border-box;
@@ -374,7 +395,7 @@ button {
 .statement4 {
   width: 445px;
   height: 212px;
-  margin-left: 30px;
+
   border: 1px solid transparent;
   background: linear-gradient(#080808, #080808) padding-box,
     linear-gradient(90deg, #484848, #1b1b1b00) border-box;
@@ -419,8 +440,8 @@ button {
   margin-left: 100px;
 }
 .recent-work {
-  width: 1109.89px;
-  margin-left: 85px;
+  /*width: 1109.89px;*/
+
   margin-bottom: 79px;
   display: flex;
   flex-direction: column;
@@ -500,7 +521,7 @@ button {
 }
 .contact {
   width: 100%;
-  max-width: 1280px;
+  /*max-width: 1280px;*/
   height: 672px;
   background-color: #080808;
   display: flex;
@@ -599,10 +620,45 @@ form input[type="submit"] {
 }
 
 footer {
-  width: 1280px;
+  /*width: 1280px;*/
+  width: 100%;
   height: 70px;
   background-color: #1b1b1b;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/*media queries*/
+@media (max-width: 768px) {
+  /* Styles for tablets and smaller devices */
+  /*show hamburger icon*/
+  .menu-toggle {
+    display: block;
+  }
+
+  /*hide hamburger icon*/
+  .navbar {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    padding: 20px 0 140px 0;
+    border-radius: 8px;
+    background-color: #1b1b1b;
+    z-index: 1;
+  }
+  /*show navbar when toggled*/
+  .navbar.active {
+    display: flex;
+  }
+  .navbar ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+  }
 }
