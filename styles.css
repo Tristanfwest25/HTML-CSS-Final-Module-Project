@@ -59,7 +59,7 @@ button {
   cursor: pointer;
 }
 .navbar {
-  width: 717px;
+  /*width: 717px;*/
   height: 18px;
   padding: 24px 0px 28px 0px;
   display: flex;
@@ -442,7 +442,7 @@ main {
 .recent-work {
   /*width: 1109.89px;*/
 
-  margin-bottom: 79px;
+  margin-bottom: 99px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -483,10 +483,14 @@ main {
   margin-right: 35px;
 }
 .recent-work-image {
-  object-fit: cover;
   height: 300px;
   border-radius: 6px;
   overflow: hidden;
+}
+.recent-work-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .work-card1-heading,
 .work-card2-heading {
@@ -1014,7 +1018,7 @@ footer {
     width: 390px;
     /*width: 100%;*/
     /*height: 804px;*/
-    height: 1390px;
+    height: 1460px;
     /*margin-bottom: 80px;*/
     margin: 0px 0px 0px 0px;
     display: flex;
@@ -1163,11 +1167,11 @@ footer {
   }
   .work-card1 {
     /*margin-left: 35.11px;*/
-    margin: 30px 0px 0px 0px;
+    margin: 30px 0px 20px 0px;
   }
   .work-card2 {
     /*margin-right: 35px;*/
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 20px 0px;
   }
   .recent-work-image {
     object-fit: cover;
