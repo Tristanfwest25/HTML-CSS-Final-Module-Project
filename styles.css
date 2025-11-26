@@ -508,14 +508,14 @@ main {
 .know-button {
   width: 139.89px;
   height: 38px;
-  background-color: #3f8e00;
+  background-color: #ff6e31;
   border: none;
   border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  box-shadow: #3f8e004d 0px 8px 30px 0px;
+  box-shadow: #ff6e314d 0px 8px 30px 0px;
   margin-bottom: 79px;
   margin-top: 20px;
 }
