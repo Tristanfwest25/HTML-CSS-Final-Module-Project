@@ -612,8 +612,10 @@ form input[type="submit"] {
   color: #ffffff;
   font-size: 14px;
   font-weight: 700;
-  background-color: #3f8e00;
-  border: 1px #62ba1b solid;
+  /*background-color: #3f8e00;*/
+  background-color: #ff6e31;
+  /*border: 1px #62ba1b solid;*/
+  border: 1px solid #c7460e;
   border-radius: 4px;
   cursor: pointer;
   padding-left: 141.55px;
@@ -771,14 +773,14 @@ footer {
   .start-btn {
     width: 307.89px;
     /*background-color: #FF6E31;*/
-    background-color: #3f8e00;
-    border: 1px solid #62ba1b;
+    /*background-color: #3f8e00;*/
+    /*border: 1px solid #62ba1b;*/
     border-radius: 4px;
     font-size: 16px;
     margin: 150px 0 0 0;
     padding: 21px 54px 21px 64px;
     gap: 30px;
-    box-shadow: #3f8e0080 0px 8px 30px 0px;
+    /*box-shadow: #3f8e0080 0px 8px 30px 0px;*/
   }
   .start-btn span {
     padding-right: 10px;
@@ -812,7 +814,7 @@ footer {
   .work {
     /*width: 100%;*/
     width: 390px;
-  /*max-width: 920px;*/
+    /*max-width: 920px;*/
     /*margin: 0 auto;*/
     margin: 0;
     display: flex;
@@ -885,8 +887,8 @@ footer {
     /*margin-top: 27px;*/
     margin: 15px 0px 10px 0px;
     border-radius: 60px;
-    background-color: #fff6e9;
-    color: #ffa217;
+    /*background-color: #fff6e9;*/
+    /*color: #ffa217;*/
     font-weight: 700;
     font-size: 12px;
     line-height: 24px;
@@ -916,14 +918,14 @@ footer {
   .case1-button {
     /*width: 189.89px;*/
     /*height: 38px;*/
-    background-color: #ffa217;
+    /*background-color: #ffa217;*/
     border: none;
     border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    box-shadow: #2ab0901a 0px 8px 30px 0px;
+    /*box-shadow: #2ab0901a 0px 8px 30px 0px;*/
     /*margin-bottom: 17px;*/
     /*margin-top: 40px;*/
     margin: 0px 0px 25px 0px;
@@ -949,8 +951,8 @@ footer {
     /*margin-top: 27px;*/
     margin: 15px 0px 10px 0px;
     border-radius: 60px;
-    background-color: #d0e6ff;
-    color: #000aff;
+    /*background-color: #d0e6ff;*/
+    /*color: #000aff;*/
     font-weight: 700;
     font-size: 12px;
     line-height: 24px;
@@ -961,14 +963,14 @@ footer {
   .case2-button {
     /*width: 189.89px;*/
     /*height: 38px;*/
-    background-color: #000aff;
+    /*background-color: #000aff;*/
     border: none;
     border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    box-shadow: #000aff1a 0px 8px 30px 0px;
+    /*box-shadow: #000aff1a 0px 8px 30px 0px;*/
     /*margin-bottom: 17px;*/
     /*margin-top: 40px;*/
     margin: 0px 0px 25px 0px;
@@ -985,8 +987,8 @@ footer {
     /*margin-top: 27px;*/
     margin: 15px 0px 10px 0px;
     border-radius: 60px;
-    background-color: #e0fff8;
-    color: #2ab090;
+    /*background-color: #e0fff8;*/
+    /*color: #2ab090;*/
     font-weight: 700;
     font-size: 12px;
     line-height: 24px;
@@ -997,14 +999,14 @@ footer {
   .case3-button {
     /*width: 189.89px;*/
     /*height: 38px;*/
-    background-color: #2ab090;
+    /*background-color: #2ab090;*/
     border: none;
     border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    box-shadow: #2ab0901a 0px 8px 30px 0px;
+    /*box-shadow: #2ab0901a 0px 8px 30px 0px;*/
     /*margin-bottom: 17px;*/
     /*margin-top: 40px;*/
     margin: 0px 0px 25px 0px;
@@ -1202,14 +1204,14 @@ footer {
   .know-button {
     width: 139.89px;
     height: 38px;
-    background-color: #3f8e00;
+    /*background-color: #3f8e00;*/
     border: none;
     border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    box-shadow: #3f8e004d 0px 8px 30px 0px;
+    /*box-shadow: #3f8e004d 0px 8px 30px 0px;*/
     /*margin-bottom: 79px;*/
     /*margin-top: 20px;*/
     margin: 0px 0px 0px 0px;
